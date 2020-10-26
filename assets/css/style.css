@@ -1,0 +1,222 @@
+@font-face {
+    font-family: montserrat;
+    src: url(/assets/font/Montserrat/Montserrat-Regular.ttf);
+}
+body {
+    font-family: sans-serif;
+    background-color:white;
+    margin: 0;
+    font-family: montserrat;
+}
+.menu-container {
+    padding-top: 20px;
+    width: 100%;
+    height: 50px;
+    background-color: whitesmoke;
+}
+.menu-list {
+    margin: 0;
+    text-align: center;
+    line-height:25px;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+.menu-item {
+    list-style-type: none;
+    display: inline;
+    padding: 4px
+}
+.menu-item a {
+    text-decoration: none;
+    color: black;
+    border-top: 1px solid transparent;
+}
+.menu-item a:hover {
+    border-top: 2px solid blueviolet;
+    color: blueviolet;
+}
+.main {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.article {
+    padding-top: 3%;
+    padding-bottom: 2%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+/* img {
+    width: 100%;
+} */
+.image {
+    width: 80%;
+}
+.content {
+    font-size: 1rem;
+
+}
+
+.content-text {
+    padding-bottom: 2%;
+    word-spacing: 1px;
+}
+.button {
+    padding: 1% 3%;
+    font-size: 1rem;
+    border: 1px solid white;
+}
+.text-blanc {
+    margin: 0 auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 65%;
+}
+p.text1 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+.menuensavoir {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.articleensavoir {
+    position: relative;
+    padding-top: 3%;
+    padding-bottom: 7%;
+    width: 25%;
+    text-align: center;
+    font-size: 1rem;
+}
+.imageensavoir img {
+    
+    width: 60%;
+    text-align: center;
+}
+.content-titreensavoir {
+    text-align: center;
+}
+
+.button.btnen {
+    font-size: 0.75rem;
+    padding: 5% 5%;
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.news-color {
+    background-color:whitesmoke;
+    height: 800px;
+    
+}
+
+.titrenews {
+    position: relative;
+    top: 100px;
+    left: 300px;
+}
+.btnnewsroom {
+    position: relative;
+    left: 1000px;
+    top: 50px;
+    border: 1px solid black;
+    width: 150px;
+    padding: 10px ;
+}
+.titrenews h2 {
+    margin: 0%;
+}
+.menu-news {
+    position: relative;
+    padding-top: 100px;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+.articlenews {
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 2%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+   
+    font-size: 0.90rem; 
+}
+.imagenews {
+    box-shadow: 1px 1px 7px black;
+    
+}
+.buttonnews {
+    color: blueviolet;
+}
+.back-info {
+    padding-left: 20%;
+    width: 65%;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.back-info div {
+    width: 20%;
+    padding-top: 25px;
+    text-align: start;
+    
+
+}
+div h3 {
+    text-align: center;
+}
+div ul{
+    list-style: none;
+}
+
+div li {
+    padding-bottom: 9px;
+
+}
+.container-presse {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title-presse {
+    font-size: 0.90em;
+    
+}
+
+.logo-presse {
+    display: flex;
+}
+.logo-presse-img {
+    padding-left: 25px;
+}
+.partenaires {
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+}
+.partenaires h3 {
+    padding-top: 30px;
+}
+.partenaires-logo {
+    display: flex;
+    justify-content: center;
+}
+.partenaires-logo-img {
+    padding: 20px;
+}
